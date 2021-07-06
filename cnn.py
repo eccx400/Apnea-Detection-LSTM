@@ -112,7 +112,7 @@ class CNN(nn.Module):
 
         print('-------classification layer-------------')
 
-        self.fc1 = nn.Linear(1525, 512)
+        self.fc1 = nn.Linear(1520, 512)
         self.bn1 = nn.BatchNorm1d(512)
         self.relu1 = nn.ReLU()
 
@@ -127,8 +127,10 @@ class CNN(nn.Module):
 
     
     def forward(self, inp):
+        
         inp = inp.permute(0,2,1) # permute to become (N, C, T)
         
+        B, C, T = inp.shape
         x = self.block1(inp)  
         xx = self.block2(inp)
         xxx = self.block3(inp)  
