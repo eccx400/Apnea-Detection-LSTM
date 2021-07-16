@@ -253,4 +253,4 @@ class Model:
                             'n_test': self.num_val,
                             'epochs': self.epochs})
 
-return self.train_losses, self.val_losses, final_val_acc
+        return self.train_losses, self.val_losses, final_val_acc
