@@ -154,4 +154,6 @@ class CNN(nn.Module):
 
         out = self.fc3(x)
         out = self.softmax(out)
+        
         return out
+
