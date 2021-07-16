@@ -1,5 +1,5 @@
 .vscode/
-data
+data/
 old/
 meta/
 end2end/
@@ -9,3 +9,8 @@ predictions/
 saved_models/
 *.ckpt
 runs/
+experiments/*
+results/*
+wandb
+__pycache__
+results
