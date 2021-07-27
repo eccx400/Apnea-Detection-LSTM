@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apneadetectionlstm-dev-114138-authRole",
+      "UnauthRoleArn": "arn:aws:iam::411548220055:role/amplify-apneadetectionlstm-dev-114138-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::411548220055:role/amplify-apneadetectionlstm-dev-114138-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-apneadetectionlstm-dev-114138-deployment",
+      "UnauthRoleName": "amplify-apneadetectionlstm-dev-114138-unauthRole",
+      "StackName": "amplify-apneadetectionlstm-dev-114138",
+      "StackId": "arn:aws:cloudformation:us-east-2:411548220055:stack/amplify-apneadetectionlstm-dev-114138/4937fed0-ef0a-11eb-9487-0268f32c96de",
+      "AmplifyAppId": "d8lersz6kkrhs"
+    }
+  }
+}
