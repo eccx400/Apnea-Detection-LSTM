@@ -128,14 +128,14 @@ def run(cfg):
 
 def main(cfg):
 
-    for i in [11]:
+   for i in [999]:
 
         cfg = DefaultConfig()
-        cfg.dataset="patchAllisterW"
+        cfg.dataset="scidbCannula"
         cfg.model_type = "cnn"
         cfg.excerpt=int(i)
         cfg.normalize=True
-        cfg.sample_rate = 8
+        cfg.sample_rate = 10
         cfg.epochs=8
         cfg.batch_size=8
         cfg.logger=True
@@ -145,7 +145,7 @@ def main(cfg):
         # cfg.test_only = True
         # cfg.base_model_path = "model_patch11.ckpt"
         run(cfg)
-        # wandb.finis/h()
+        # wandb.finish()
 
 
 
